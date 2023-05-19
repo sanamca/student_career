@@ -1,0 +1,102 @@
+
+
+
+header h1
+{
+    font-family: 'Arbutus', cursive;
+    text-align:center;
+    font-size:41px;
+    color:#F8CA4D;
+    text-shadow:0px 0px 4px #222;
+}
+
+
+header .btn-link
+{
+    border:1px solid #2F3440;
+    margin-top:20px;
+    font-size:21px;
+    letter-spacing:1px;
+    color:#2F3440;
+    text-shadow:0px 0px 1px #222;
+    box-shadow:0px 0px 1px #000;
+}
+
+header .btn-link:hover
+{
+    text-decoration:none;
+    color:#eee;
+    border:1px solid #eee;
+    transition:all 0.7s;
+    text-shadow:0px 0px 3px #000;
+}
+
+
+/* Custom navbar settings */
+.navbar-default {
+  background-color:#2a0431;
+  border-color:#2a0431;
+  border-bottom:1px solidÂ #00c9c0;
+  border-radius:0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#fff;
+  letter-spacing:1px;
+  font-weight:500;
+}
+
+.navbar-default .navbar-brand {
+  color:#ffffff;
+  letter-spacing:1px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color:#eee;
+  transition:all 0.7s;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color:#eee;
+  background-color:#2F3440;
+  transition:all 0.7s;
+  font-size:21px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color:#eee;
+  background-color:#2F3440;
+  transition:all 0.7s;
+  font-size:15px;
+}
+
+body {
+    background: #6f08b4;
+    /* background: -webkit-linear-gradient(to top, #13daf6, #0b9fb3);
+    background: linear-gradient(to top, #13daf6,#0b9fb3); */
+}
+.home_image{
+    border-radius: 10%;
+}
+
+.home-btn{
+    width:10rem;
+}
+
+.form-data{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+label{
+    color: #eee;
+}
+.test-p,h3 {
+    color: rgb(240, 236, 234);
+}
+
+.res-im{
+  width: 40vw;
+  height: 50vh;
+}

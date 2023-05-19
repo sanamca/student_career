@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student career prediction</title>
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <h1>
+            student career prediction
+          </h1>
+        <div class="container-fluid">
+
+          <ul class="nav navbar-nav navbar-center">
+            <li > <a href="{{ url_for('home')}}">Home</a></li>
+            <!-- <li><a href="{{ url_for('result')}}">Last Prediction</a></li> -->
+            <li><a href="{{ url_for('test') }}">career selection test</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+</header>
+
+<main>
+    {% block content%} {% endblock %}
+</main>
+    
+</body>
+</html>
